@@ -22,5 +22,7 @@ public class ClienteResources {
 		Cliente obj = service.find(id);
 		return ResponseEntity.ok().body(obj);
 	}
+	
+	
 
 }
